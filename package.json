@@ -1,0 +1,27 @@
+{
+  "name": "bot-template",
+  "version": "1.0.0",
+  "description": "Build your own Discord Bot using this builder template.",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon . --no-warnings",
+    "start": "node . --no-warnings"
+  },
+  "keywords": [
+    "Discord-Bot",
+    "Template",
+    "Bot",
+    "Discord-Bot-Template"
+  ],
+  "author": "Loïc MAES",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -3,6 +3,8 @@ const Embed = require('../../structures/builders/embed')
 
 module.exports = new Command({
     name: 'status',
+    category: 'Developer',
+    description: 'Afficher les status des applications employées par le Bot.',
     async callback (client, interaction) {
         const botPing = client.ws.ping
 

@@ -7,6 +7,8 @@ class Client extends discord.Client {
 
         this.color = '#333333'
         this.commands = new discord.Collection()
+        this.musicQueueEmbed = undefined
+        this.musicQueue = []
     }
 
     start () {

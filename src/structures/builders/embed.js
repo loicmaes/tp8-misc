@@ -12,7 +12,7 @@ class Embed {
         this.color = data.color || client.color
         this.author = data.author
         this.fields = data.fields || []
-        this.footer = data.footer || { text: `Developed by **Loïc MAES**` }
+        this.footer = data.footer || { text: `Developed by Loïc MAES` }
         this.image = data.image
         this.thumbnail = data.thumbnail
         this.timestamp = data.timestamp || false
